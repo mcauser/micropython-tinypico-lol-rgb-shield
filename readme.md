@@ -2,6 +2,17 @@
 
 A MicroPython library for the TinyPICO LOL RGB Shield, by @tinyledmatrix
 
+## Demo
+
+![demo](docs/demo.gif)
+
+```python
+from lolrgb import *
+display = LOLRGB()
+
+display.write('TinyPICO LOL RGB Shield', RAINBOW)
+```
+
 ## Examples
 
 ```python
