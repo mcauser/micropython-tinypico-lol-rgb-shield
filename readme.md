@@ -64,11 +64,11 @@ display.write(b'Red')
 display.write(bytearray(b'Red'))
 
 # you can write ints
-display.write(1234, RAINBOW, MEDIUM, CHAR_BOUNDARY)
+display.write(1234, RAINBOW, MEDIUM_PAUSE, CHAR_BOUNDARY)
 
 # you can write floats
-display.write(12.34, RAINBOW, MEDIUM, CHAR_BOUNDARY)
-display.write(1/3, RAINBOW, MEDIUM, CHAR_BOUNDARY)
+display.write(12.34, RAINBOW, MEDIUM_PAUSE, CHAR_BOUNDARY)
+display.write(1/3, RAINBOW, MEDIUM_PAUSE, CHAR_BOUNDARY)
 
 # all supported ascii chars (32-127)
 display.write(''.join(chr(i) for i in range(32,128)), RED, FAST)
