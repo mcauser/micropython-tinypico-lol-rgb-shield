@@ -78,6 +78,26 @@ display.write(chr(31))   # < 32 == hollow rect
 display.write(chr(128))  # > 127 == filled rect
 ```
 
+## TomThumb font
+
+Original 3x5 font Brian Swetland.
+
+I've excluding ascii characters < 32 and > 127 to save space.
+
+Enlarged 10x:
+
+![10x](docs/tomthumb@10x.png)
+
+Enlarged 10x spaced apart:
+
+![10x spaced](docs/tomthumb-spaced@10x.png)
+
+Actual size:
+
+![actual](docs/tomthumb.png)
+
+Was unable to add [Robey Pointer's](https://robey.lag.net/2010/01/23/tiny-monospace-font.html) improvements as it requires 6 lines and this matrix only has 5.
+
 ## Links
 
 * [micropython.org](http://micropython.org)
@@ -86,9 +106,15 @@ display.write(chr(128))  # > 127 == filled rect
 * [Buy a TinyPICO Side by Side](https://unexpectedmaker.com/shop/tinypico-mzffe-zatnr-zehhx)
 * [TinyPICO Getting Started](https://www.tinypico.com/gettingstarted)
 * [Arduino version](https://github.com/tinypico/tinypico-arduino)
+* [Brian Swetlands original 3x5 font](https://vt100.tarunz.org/#font)
+* [Robey Pointers TomThumb improvements](https://robey.lag.net/2010/01/23/tiny-monospace-font.html)
 
 ## License
 
 Licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
 Copyright (c) 2021 Mike Causer
+
+TomThumb font
+
+Copyright 1999 Brian Swetland - [CC0 License](https://creativecommons.org/share-your-work/public-domain/cc0/).
